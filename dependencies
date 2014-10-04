@@ -1,6 +1,12 @@
+youcompleteme is a mess add indivdual completion
 
-youcompleteme
-	run install.sh --clang-completer
+clang-complete C/C++
+omni func for js
+jedi-vim for python
+
+
+#youcompleteme
+#	run install.sh --clang-completer
 
 external(install through package manager)
 	cmake

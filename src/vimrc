@@ -6,6 +6,9 @@ syntax on
 filetype plugin indent on
 
 
+set omnifunc=syntaxcomplete#Complete
+
+
 " allows mouse to be used
 set mouse=a
 " shows line numbers
