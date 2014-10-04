@@ -47,3 +47,7 @@ map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 
 
+" autocmd! BufNewFile,BufReadPre,FileReadPre *.hs sp ~/.vim/ftplugin/haskell.vim
+" autocmd! BufNewFile,BufReadPre,FileReadPre *.hsc sp ~/.vim/ftplugin/haskell.vim
+" autocmd! BufNewFile,BufReadPre,FileReadPre *.lhs sp ~/.vim/ftplugin/haskell.vim
+" autocmd! BufNewFile,BufReadPre,FileReadPre *.cabal sp ~/.vim/ftplugin/haskell.vim
