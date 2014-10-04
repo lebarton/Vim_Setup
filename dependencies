@@ -1,0 +1,9 @@
+
+youcompleteme
+	run install.sh --clang-completer
+
+external(install through package manager)
+	cmake
+	build-essential
+	python-dev
+	clang

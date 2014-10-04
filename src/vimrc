@@ -18,6 +18,9 @@ set wildmenu
 set ignorecase
 set smartcase
 
+" Fixes for you complete me on openSuse
+let g:ycm_path_to_python_interpreter='/usr/bin/python'
+let g:clang_user_options='|| exit 0'
 let mapleader="\<space>"
 
 " nnoremap	<F1>	:tabprevious<CR>

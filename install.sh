@@ -32,6 +32,8 @@ then
 	fi
 fi
 
+git submodule update --init --recursive
+
 cp ./src/vimrc ~/.vimrc
 cp -R ./src/vim ./src/.vim
 cp -R ./src/vim ~/.vim

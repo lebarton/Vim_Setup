@@ -1,3 +1,15 @@
-[submodule "nerdtree"]
-	path = nerdtree
+[submodule "src/vim/bundle/nerdtree"]
+	path = src/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "src/vim/bundle/vim-fugitive"]
+	path = src/vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "src/vim/bundle/vim-colors-solarized"]
+	path = src/vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "src/vim/bundle/syntastic"]
+	path = src/vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "src/vim/bundle/youcompleteme"]
+	path = src/vim/bundle/youcompleteme
+	url = https://github.com/Valloric/youcompleteme
