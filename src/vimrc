@@ -1,0 +1,43 @@
+
+" Pathogen
+execute pathogen#infect()
+call pathogen#helptags()
+syntax on
+filetype plugin indent on
+
+
+" allows mouse to be used
+set mouse=a
+" shows line numbers
+set number
+" Improves command line completion
+set wildmenu
+
+
+" set case insensitive search by default
+set ignorecase
+set smartcase
+
+let mapleader="\<space>"
+
+" nnoremap	<F1>	:tabprevious<CR>
+" nnoremap	<F2>	:tabnext<CR>
+
+" nnoremap	<F5>	:tabnew<CR>
+" nnoremap	<F6>	:tabclose<CR>
+
+map 		<leader>l 		:tabn<CR>
+map 		<leader>h 		:tabp<CR>
+map 		<leader>t	 	:tabnew<CR>
+map 		<leader>w 		:tabclose<CR>
+
+
+
+nnoremap	<F1>	:NERDTreeToggle<CR>
+
+" This is for use with ctags
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+
+

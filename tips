@@ -1,0 +1,18 @@
+
+vim -p FILE1 FILE2
+	opens files in multiple windows
+
+vim -o FILE1 FILE2
+	opens files in multiple windows
+
+COMMAND | vim -
+	reads from stdin
+
+
+%s /search/replace/gc 
+
+:tabe file
+	open file in new tab
+
+:vimgrep /expression/ files/**/*.c
+	searches files into a quickfix window
