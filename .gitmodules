@@ -10,6 +10,6 @@
 [submodule "src/vim/bundle/syntastic"]
 	path = src/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule "src/vim/bundle/youcompleteme"]
-	path = src/vim/bundle/youcompleteme
-	url = https://github.com/Valloric/youcompleteme
+[submodule "src/vim/bundle/jedi-vim"]
+	path = src/vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
