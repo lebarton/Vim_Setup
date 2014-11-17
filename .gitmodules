@@ -16,3 +16,6 @@
 [submodule "src/vim/bundle/clang_complete"]
 	path = src/vim/bundle/clang_complete
 	url = https://github.com/Rip-Rip/clang_complete
+[submodule "src/vim/bundle/scala"]
+	path = src/vim/bundle/scala
+	url = https://github.com/derekwyatt/vim-scala
