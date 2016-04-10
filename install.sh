@@ -1,5 +1,7 @@
 #!/bin/sh bash
 
+sudo apt-get install build-essential cmake python-dev python3-dev
+
 if [ -d "./src" ];
 then
 	if [ -f ~/.vimrc ];
@@ -34,7 +36,16 @@ fi
 
 git submodule update --init --recursive
 
+cd src/vim/bundle/YouCompleteMe
+
+./install.py --clang-completer
+
+cd ../../../..
+
 cp ./src/vimrc ~/.vimrc
 cp -R ./src/vim ./src/.vim
 cp -R ./src/vim ~/.vim
 rm -rf ./src/.vim
+
+cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~
+
